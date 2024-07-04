@@ -13,8 +13,10 @@ function AgregarTarea(){
     span.innerHTML = "\u00d7";
     li.appendChild(span);
     }
-    imputbox.value = '';
+    console.log("clicked");
     saveData();
+    imputbox.value = '';
+    
 
 }
 
